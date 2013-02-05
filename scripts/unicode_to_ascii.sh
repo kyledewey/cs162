@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Usage: ./unicode_to_ascii.sh file1.scala file2.scala filen.scala
+
 for file in *.scala
 do
     function r() {
