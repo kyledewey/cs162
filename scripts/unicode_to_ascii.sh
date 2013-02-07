@@ -11,6 +11,7 @@ do
     r ρ env
     r ⇒ '=>'
     r → '->'
+    r ← '<-'
     r '⌞−⌟' UopMinus
     r '⌞¬⌟' UopNeg
     r '⌜+⌝' BopPlus
