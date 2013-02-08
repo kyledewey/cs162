@@ -1,0 +1,18 @@
+var a, b, f in 
+  a := 1;
+  b := 2;
+  f := () => {
+    newCons {
+      if (a = 1) {
+         output a;
+         output b
+      } else {
+         output a
+      }
+    }
+  };
+  f();
+  a := 5;
+  f();
+  a := 6
+  
