@@ -24,6 +24,7 @@ do
     r '⌜≠⌝' BopNotEqual
     r '⌜≤⌝' BopLessEqual
     r '⌜<⌝' BopLess
+    r '⌜::⌝' BopCons
     r × mult
     r ÷ div
     r ≈ equiv
