@@ -2,7 +2,7 @@
 
 # Usage: ./unicode_to_ascii.sh file1.scala file2.scala filen.scala
 
-for file in *.scala
+for file in $@
 do
     function r() {
 	sed -i '' "s/$1/$2/g" "$file"
